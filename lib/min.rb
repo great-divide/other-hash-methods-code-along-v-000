@@ -9,10 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.each do |category, item|
-      first = item.min
-      binding.pry
-      first.index(1)
-    end
+  groceries.values.flatten.min
     
 end
