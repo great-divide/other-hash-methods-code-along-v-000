@@ -10,7 +10,8 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.each do |category, item|
-      item.min
+      first = item.min
+      first.index(1)
     end
     
 end
